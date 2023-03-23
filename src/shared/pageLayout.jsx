@@ -5,10 +5,10 @@ import { Menu } from '../menu/Menu'
 const PageLayout = () => {
   return (
     <div className='row p-5'>
-         <div className='menu col-3'>
+         <div className='menu col-2'>
            <Menu/> 
          </div>
-         <div className='col-9'>
+         <div className='col-10'>
            <Outlet />
          </div>
     </div>

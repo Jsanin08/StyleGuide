@@ -14,7 +14,10 @@ const Code = ({template}) => {
   
   return (
     <div>
-      {parse(html)}
+      <h4>Preview</h4>
+      <div className='d-flex justify-content-center'>
+        {parse(html)}
+      </div>
         <hr />
       <div className="bd-clipboard">
         <button
