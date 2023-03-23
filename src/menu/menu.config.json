@@ -2,12 +2,12 @@
 	"data": [{
         "id":"1",
 		"name": "Basic elements",
+		"computedName":"BasicElements",
 		"url":"",
 		"child": [{
-            "id":"1",
+            "id":"1.1",
 			"name": "Button",
 			"url":"button"
-
 		}]
 	}]
 }
