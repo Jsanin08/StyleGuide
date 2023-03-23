@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 
 import menuJson from '../menu/menu.config.json'
 import PageLayout from './pageLayout';
-import Code from './code.pre';
+import Code from './code';
 
 const MyRoutes = () => {
     let routesArray = [];

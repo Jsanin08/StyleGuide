@@ -5,27 +5,27 @@ import parse from 'html-react-parser'
 
 const Code = ({template}) => {
   const [value, copy] = useCopyToClipboard();
-  const [children, setchildren] = useState("")
+  const [html, setHtml] = useState("")
   useEffect(() => {
-    import(`../components/${template.root}/${template.url}.html?raw`).then((html)=>{
-        setchildren(html.default);
+    import(`../components/${template.root}/${template.url}.html?raw`).then((content)=>{
+      setHtml(content.default);
       });
   }, [template])
   
   return (
     <div>
-      {parse(children)}
+      {parse(html)}
         <hr />
       <div className="bd-clipboard">
         <button
-            onClick={() =>  copy(children)}
+            onClick={() => copy(html)}
             type="button" 
             className="btn btn-secondary btn-clipboard" 
             title="" 
             data-bs-original-title="Copy to clipboard">Copy</button>
         </div>
       <pre className='divCode'>
-        {children}
+        {html}
       </pre>
     </div>
   )
