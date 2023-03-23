@@ -1,23 +1,16 @@
 import React from 'react'
 import parse from 'html-react-parser'
-import buttonHTML from './button.html'
+import buttonHTML from "./button.html?raw"
+import Code from '../../shared/code.pre'
 
-//var __html = require('./button.html');
 export const Button = () => {
-console.log(buttonHTML)
-  const button= `<button type="button" class="btn btn-primary position-relative">
-   <span>Button</span> 
-   </button>`
-   
   return (
-<div>
-{parse(button)}
-<hr />
-<pre>
-  {button}
-</pre>
-</div>
-
-
-  )
+    <div>
+    {parse(buttonHTML)}
+    <hr />
+     <Code>
+      {buttonHTML}
+     </Code>
+    </div>
+    )
 }

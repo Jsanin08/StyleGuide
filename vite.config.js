@@ -3,7 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react({
+    include: "src/**/*.jsx",
+  })],
+  assetsInclude:"src/**/*.html",
   exports:// vite.config.js
   {
     transforms: [
