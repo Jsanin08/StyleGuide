@@ -6,8 +6,44 @@
 		"url":"",
 		"child": [{
             "id":"1.1",
-			"name": "Button",
-			"url":"button"
+			"name": "Buttons",
+			"url":"Buttons",
+			"child":[
+				{
+					"id":"1.1.1",
+					"name": "Button",
+					"template":"button"
+				},
+				{
+					"id":"1.1.2",
+					"name": "Circle Shape",
+					"template":"circleShape"
+				}
+			]
+		},
+		{
+            "id":"1.2",
+			"name": "Dropdowns",
+			"url":"Dropdowns",
+			"child":[
+				{
+					"id":"1.2.1",
+					"name": "Dropdown",
+					"template":"dropdown"
+				}
+			]
+		}]
+	},
+	{
+        "id":"2",
+		"name": "Navigation",
+		"computedName":"Navigation",
+		"url":"",
+		"child": [{
+            "id":"2.1",
+			"name": "Navbar",
+			"url":"navBar"
 		}]
 	}]
+	
 }

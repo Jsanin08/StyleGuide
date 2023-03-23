@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import menuJson from '../menu/menu.config.json'
 import PageLayout from './pageLayout';
 import Code from './code';
+import { Root } from './root';
 
 const MyRoutes = () => {
     let routesArray = [];
@@ -31,8 +32,8 @@ const MyRoutes = () => {
                   routesArray?.filter(x=>x.url!="").map((item)=>(
                         <Route 
                             key={item.name} 
-                            path={item.name} 
-                            element={<Code template={item} />} />
+                            path={item.url} 
+                            element={<Root data={item} />} />
                   ))
                 }
                 </Route>

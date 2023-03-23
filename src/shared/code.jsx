@@ -3,18 +3,19 @@ import useCopyToClipboard from './hooks/copy'
 
 import parse from 'html-react-parser'
 
-const Code = ({template}) => {
+const Code = ({rootUrl,template}) => {
   const [value, copy] = useCopyToClipboard();
-  const [html, setHtml] = useState("")
+  const [html, setHtml] = useState("");
+  console.log(template)
   useEffect(() => {
-    import(`../components/${template.root}/${template.url}.html?raw`).then((content)=>{
+    import(`../components/${rootUrl.root}/${rootUrl.url}/${template.template}.html?raw`).then((content)=>{
       setHtml(content.default);
       });
-  }, [template])
+  }, [rootUrl])
   
   return (
     <div>
-      <h4>Preview</h4>
+      <h4>{template.name}</h4>
       <div className='d-flex justify-content-center'>
         {parse(html)}
       </div>
