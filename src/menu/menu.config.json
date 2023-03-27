@@ -132,8 +132,48 @@
 			"child":[
 				{
 					"id":"1.3.1",
-					"name": "With left border and icon",
-					"template":"dropdown"
+					"name": "With text",
+					"template":"withText"
+				},
+				{
+					"id":"1.3.2",
+					"name": "With child",
+					"template":"withChild"
+				},
+				{
+					"id":"1.3.3",
+					"name": "With image",
+					"template":"withImage"
+				},
+				{
+					"id":"1.3.4",
+					"name": "Group",
+					"template":"group"
+				},
+				{
+					"id":"1.3.5",
+					"name": "With Group hover effect",
+					"template":"groupHoverE"
+				},
+				{
+					"id":"1.3.6",
+					"name": "Pill",
+					"template":"pill"
+				},
+				{
+					"id":"1.3.7",
+					"name": "With Status bullet",
+					"template":"statusBullet"
+				},
+				{
+					"id":"1.3.8",
+					"name": "With Inline text",
+					"template":"inlineText"
+				},
+				{
+					"id":"1.3.9",
+					"name": "With inline text + link",
+					"template":"inlineTextLink"
 				}
 			]
 		
@@ -145,8 +185,23 @@
 			"child":[
 				{
 					"id":"1.4.1",
-					"name": "With left border and icon",
-					"template":"dropdown"
+					"name": "Colors",
+					"template":"colors"
+				},
+				{
+					"id":"1.4.1",
+					"name": "With number",
+					"template":"withNumber"
+				},
+				{
+					"id":"1.4.1",
+					"name": "With bullets",
+					"template":"withBullets"
+				},
+				{
+					"id":"1.4.1",
+					"name": "With icon",
+					"template":"withIcon"
 				}
 			]
 		
@@ -158,8 +213,86 @@
 			"child":[
 				{
 					"id":"1.5.1",
-					"name": "Dropdown",
-					"template":"dropdown"
+					"name": "With simple links",
+					"template":"simpleLinks"
+					
+				},
+				{
+					"id":"1.5.2",
+					"name": "With dividers",
+					"template":"withDividers"
+					
+				},
+				{
+					"id":"1.5.3",
+					"name": "With links + icons",
+					"template":"linksIcons"
+					
+				},
+				{
+					"id":"1.5.4",
+					"name": "With header and dividers",
+					"template":"headersDividers"
+					
+				},
+				{
+					"id":"1.5.5",
+					"name": "With avatar + inline text",
+					"template":"avatarInlineText"
+					
+				},
+				{
+					"id":"1.5.6",
+					"name": "With search box",
+					"template":"searchBox"
+					
+				},
+				{
+					"id":"1.5.7",
+					"name": "With grouped checkboxed + inline text and badge",
+					"template":"groupedCheckInTextBad"
+					
+				},
+				{
+					"id":"1.5.8",
+					"name": "With checkbox + inline text and badge",
+					"template":"checkboxInlineTextBad"
+					
+				},
+				{
+					"id":"1.5.9",
+					"name": "With empty placeholder",
+					"template":"emptyPlaceholder"
+					
+				},
+				{
+					"id":"1.5.10",
+					"name": "With media list",
+					"template":"mediaList"
+					
+				},
+				{
+					"id":"1.5.11",
+					"name": "Dropdown more",
+					"template":"dropdownMore"
+					
+				},
+				{
+					"id":"1.5.12",
+					"name": "With notifications",
+					"template":"notifications"
+					
+				},
+				{
+					"id":"1.5.13",
+					"name": "With radios + inline text and badge",
+					"template":"radiosInlineTextBad"
+					
+				},
+				{
+					"id":"1.5.14",
+					"name": "With text and badges",
+					"template":"textBadges"
 					
 				}
 			]
@@ -172,8 +305,33 @@
 			"child":[
 				{
 					"id":"1.6.1",
-					"name": "With left border and icon",
-					"template":"dropdown"
+					"name": "With theme color",
+					"template":"themeColor"
+				},
+				{
+					"id":"1.6.2",
+					"name": "With label",
+					"template":"withLabel"
+				},
+				{
+					"id":"1.6.3",
+					"name": "With tooltip",
+					"template":"withTooltip"
+				},
+				{
+					"id":"1.6.4",
+					"name": "With text above",
+					"template":"textAbove"
+				},
+				{
+					"id":"1.6.5",
+					"name": "With multiple colors",
+					"template":"multipleColors"
+				},
+				{
+					"id":"1.6.6",
+					"name": "With striped bg",
+					"template":"stripedBg"
 				}
 			]
 		
@@ -185,8 +343,63 @@
 			"child":[
 				{
 					"id":"1.7.1",
-					"name": "With left border and icon",
-					"template":"dropdown"
+					"name": "",
+					"template":"md1"
+				},
+				{
+					"id":"1.7.2",
+					"name": "",
+					"template":"md2"
+				},
+				{
+					"id":"1.7.3",
+					"name": "",
+					"template":"md3"
+				},
+				{
+					"id":"1.7.4",
+					"name": "",
+					"template":"md4"
+				},
+				{
+					"id":"1.7.5",
+					"name": "",
+					"template":"md5"
+				},
+				{
+					"id":"1.7.6",
+					"name": "",
+					"template":"md6"
+				},
+				{
+					"id":"1.7.7",
+					"name": "",
+					"template":"md7"
+				},
+				{
+					"id":"1.7.8",
+					"name": "",
+					"template":"md8"
+				},
+				{
+					"id":"1.7.9",
+					"name": "",
+					"template":"md9"
+				},
+				{
+					"id":"1.7.10",
+					"name": "",
+					"template":"md10"
+				},
+				{
+					"id":"1.7.11",
+					"name": "",
+					"template":"md11"
+				},
+				{
+					"id":"1.7.12",
+					"name": "",
+					"template":"md12"
 				}
 			]
 		
