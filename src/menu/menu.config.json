@@ -1,5 +1,6 @@
 {
-	"data": [{
+	"data": [
+		{
         "id":"1",
 		"name": "Basic elements",
 		"computedName":"BasicElements",
@@ -11,39 +12,450 @@
 			"child":[
 				{
 					"id":"1.1.1",
-					"name": "Button",
-					"template":"button"
+					"name": "Primary",
+					"template":"primary"
 				},
 				{
 					"id":"1.1.2",
+					"name": "Hover Animation",
+					"template":"hoverAnimation"
+				},
+				{
+					"id":"1.1.3",
+					"name": "Badge",
+					"template":"badge"
+				},
+				{
+					"id":"1.1.4",
 					"name": "Circle Shape",
 					"template":"circleShape"
+				},
+				{
+					"id":"1.1.5",
+					"name": "With icon",
+					"template":"withIcon"
+				},
+				{
+					"id":"1.1.6",
+					"name": "Neutral color",
+					"template":"neutralColor"
+				},
+				{
+					"id":"1.1.7",
+					"name": "Pill shape",
+					"template":"pillShape"
+				},
+				{
+					"id":"1.1.8",
+					"name": "Shadow",
+					"template":"shadow"
+				},
+				{
+					"id":"1.1.9",
+					"name": "Social Icons",
+					"template":"socialIcons"
+				},
+				{
+					"id":"1.1.10",
+					"name": "Soft button",
+					"template":"softButton"
+				},
+				{
+					"id":"1.1.11",
+					"name": "Square shape",
+					"template":"squareShape"
 				}
 			]
 		},
 		{
-            "id":"1.2",
-			"name": "Dropdowns",
-			"url":"Dropdowns",
+			"id":"1.2",
+			"name": "Alerts",
+			"url":"Alerts",
 			"child":[
 				{
 					"id":"1.2.1",
-					"name": "Dropdown",
+					"name": "With left border and icon",
+					"template":"leftBorderIcon"
+				},
+				{
+					"id":"1.2.2",
+					"name": "With dark bg",
+					"template":"darkBg"
+				},
+				{
+					"id":"1.2.3",
+					"name": "With dismissible button",
+					"template":"dismissibleButton"
+				},
+				{
+					"id":"1.2.4",
+					"name": "With feedback and error list",
+					"template":"feedbackErrorList"
+				},
+				{
+					"id":"1.2.5",
+					"name": "With icon and text",
+					"template":"iconText"
+				},
+				{
+					"id":"1.2.6",
+					"name": "With icon and arrow action",
+					"template":"iconArrowAction"
+				},
+				{
+					"id":"1.2.7",
+					"name": "With message and action buttons",
+					"template":"messageActionButtons"
+				},
+				{
+					"id":"1.2.8",
+					"name": "With outline border",
+					"template":"outlineBorder"
+				},
+				{
+					"id":"1.2.9",
+					"name": "With pill-shaped borders and icon",
+					"template":"pillShapedBorIcon"
+				},
+				{
+					"id":"1.2.10",
+					"name": "With solid color",
+					"template":"solidColor"
+				}
+			]
+		
+		},
+		{
+			"id":"1.3",
+			"name": "Avatar",
+			"url":"Avatar",
+			"child":[
+				{
+					"id":"1.3.1",
+					"name": "With left border and icon",
 					"template":"dropdown"
 				}
 			]
-		}]
+		
+		},
+		{
+			"id":"1.4",
+			"name": "Badge",
+			"url":"Badge",
+			"child":[
+				{
+					"id":"1.4.1",
+					"name": "With left border and icon",
+					"template":"dropdown"
+				}
+			]
+		
+		},
+		{
+			"id":"1.5",
+			"name": "Dropdown",
+			"url":"Dropdown",
+			"child":[
+				{
+					"id":"1.5.1",
+					"name": "Dropdown",
+					"template":"dropdown"
+					
+				}
+			]
+		
+		},
+		{
+			"id":"1.6",
+			"name": "Progress",
+			"url":"Progress",
+			"child":[
+				{
+					"id":"1.6.1",
+					"name": "With left border and icon",
+					"template":"dropdown"
+				}
+			]
+		
+		},
+		{
+			"id":"1.7",
+			"name": "Media Object",
+			"url":"MediaObject",
+			"child":[
+				{
+					"id":"1.7.1",
+					"name": "With left border and icon",
+					"template":"dropdown"
+				}
+			]
+		
+		}
+	]
 	},
+
 	{
-        "id":"2",
+		"id":"2",
+		"name": "People Styles",
+		"computedName":"PeopleStyles",
+		"url":"",
+		"child": [{
+				"id":"2.1",
+				"name": "People Colors",
+				"url":"PeopleColors",
+				"child":[
+					{
+						"id":"2.1.1",
+						"name": "Available Colors",
+						"template":"availableColors"
+					}
+				]
+			
+				},
+				{
+					"id":"2.2",
+					"name": "Typography",
+					"url":"Typography",
+					"child":[
+						{
+							"id":"2.2.1",
+							"name": "Headings",
+							"template":"headings"
+						}
+					]
+				
+				}]
+	},
+
+	{
+        "id":"3",
 		"name": "Navigation",
 		"computedName":"Navigation",
 		"url":"",
 		"child": [{
-            "id":"2.1",
+			"id":"3.1",
 			"name": "Navbar",
-			"url":"navBar"
-		}]
+			"url":"Navbar",
+			"child":[
+				{
+					"id":"3.1.1",
+					"name": "With dark bg and centered links",
+					"template":"navbar2"
+				}
+			]
+		
+			},
+			{
+			"id":"3.2",
+			"name": "Vertical Navbar",
+			"url":"VerticalNavbar",
+			"child":[
+				{
+					"id":"3.2.1",
+					"name": "With simple links and bottom menu",
+					"template":"verticalNavbar1"
+				}
+			]
+			
+			}]
+	},
+
+	{
+        "id":"4",
+		"name": "Navigation",
+		"computedName":"Navigation",
+		"url":"",
+		"child": [{
+			"id":"4.1",
+			"name": "Navbar",
+			"url":"Navbar",
+			"child":[
+				{
+					"id":"4.1.1",
+					"name": "With dark bg and centered links",
+					"template":"navbar2"
+				}
+			]
+		
+			},
+			{
+			"id":"4.2",
+			"name": "Vertical Navbar",
+			"url":"VerticalNavbar",
+			"child":[
+				{
+					"id":"3.2.1",
+					"name": "With simple links and bottom menu",
+					"template":"verticalNavbar1"
+				}
+			]
+			
+			}]
+	},
+
+	{
+        "id":"5",
+		"name": "Headings",
+		"computedName":"Headings",
+		"url":"",
+		"child": [{
+			"id":"5.1",
+			"name": "Page Headings",
+			"url":"PageHeadings",
+			"child":[
+				{
+					"id":"5.1.1",
+					"name": "With right buttons",
+					"template":"ph1"
+				}
+			]
+		
+			},
+			{
+			"id":"5.2",
+			"name": "Section Heading",
+			"url":"SectionHeadings",
+			"child":[
+				{
+					"id":"5.2.1",
+					"name": "",
+					"template":"sh1"
+				}
+			]
+			
+			}]
+	},
+
+	{
+        "id":"6",
+		"name": "Cards",
+		"computedName":"Cards",
+		"url":"",
+		"child": [{
+			"id":"6.1",
+			"name": "Avatar Cards",
+			"url":"AvatarCards",
+			"child":[
+				{
+					"id":"6.1.1",
+					"name": "With text and date info",
+					"template":"ac1"
+				}
+			]
+		
+			},
+			{
+			"id":"6.2",
+			"name": "Profile Cards",
+			"url":"ProfileCards",
+			"child":[
+				{
+					"id":"6.2.1",
+					"name": "With cover and profile picture with stats and buttons",
+					"template":"pc1"
+				}
+			]
+			
+			}]
+	},
+
+	{
+        "id":"7",
+		"name": "List",
+		"computedName":"List",
+		"url":"",
+		"child": [{
+			"id":"7.1",
+			"name": "Large Lists",
+			"url":"LargeLists",
+			"child":[
+				{
+					"id":"7.1.1",
+					"name": "With inline title and text + tag",
+					"template":"ll1"
+				}
+			]
+		
+			},
+			{
+			"id":"7.2",
+			"name": "List Groups",
+			"url":"ListGroups",
+			"child":[
+				{
+					"id":"7.2.1",
+					"name": "With avatar and quick info",
+					"template":"lg1"
+				}
+			]
+			
+			}]
+	},
+
+	{
+        "id":"8",
+		"name": "Tables",
+		"computedName":"Tables",
+		"url":"",
+		"child": [{
+			"id":"8.1",
+			"name": "Spaced Rows Tables",
+			"url":"SpacedRowsTables",
+			"child":[
+				{
+					"id":"8.1.1",
+					"name": "With avatars and badges",
+					"template":"srt1"
+				}
+			]
+		
+			},
+			{
+			"id":"8.2",
+			"name": "Advanced Tables",
+			"url":"AdvancedTables",
+			"child":[
+				{
+					"id":"8.2.1",
+					"name": "With avatars and badges",
+					"template":"at1"
+				}
+			]
+			
+			}]
+	},
+
+	{
+        "id":"9",
+		"name": "Forms",
+		"computedName":"Forms",
+		"url":"",
+		"child": [{
+			"id":"9.1",
+			"name": "Form Groups",
+			"url":"FormGroups",
+			"child":[
+				{
+					"id":"9.1.1",
+					"name": "With label and muted input",
+					"template":"fg1"
+				}
+			]
+		
+			},
+			{
+			"id":"9.2",
+			"name": "File Inputs",
+			"url":"FileInputs",
+			"child":[
+				{
+					"id":"9.2.1",
+					"name": "With avatar and upload button + remove",
+					"template":"fi1"
+				}
+			]
+			
+			}]
 	}]
 	
 }
