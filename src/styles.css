@@ -1,8 +1,123 @@
+.dark {
+    background-color: #333;
+    color: #fff;
+    background-color: #181a1b !important;
+    color-scheme: dark !important;
+    background-color: #181a1b;
+    border-color: #736b5e;
+    color: #e8e6e3;
+    color: #3391ff;
+}
+
+.dark .fixed-nav > *{
+    background-color: rgb(24, 26, 27) !important;
+    color: rgb(119, 211, 255);
+}
+
+.dark .fixed-nav .header .title{
+    color: rgb(119, 211, 255);
+}
+
+.dark .divCode, .dark .divCode .pre{
+    background-color: rgb(27, 30, 31);
+    color: rgb(119, 211, 255);
+}
+
+.dark .nav-link{
+    color: rgb(166, 158, 147);
+}
+
+.dark .content .preview-title{
+    color: whitesmoke;
+}
+
+.dark .content .preview-item{
+    background-color: #1c2a2a;
+    padding: 3%;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.dark .content .form-label{
+    color: rgb(119, 211, 255);
+}
+
+
+.dark .nav-link:hover{
+    background-color: rgb(42, 46, 47);
+    color: rgb(166, 158, 147);
+}
+
+.dark .btn-clipboard{
+    background-color: rgb(34, 37, 38);
+    color:rgb(166, 158, 147);
+}
+
+
+.dark-mode .checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .dark-mode .label {
+    width: 49px;
+    height: 24px;
+    background-color:#111;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+  
+  .dark-mode .ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+  
+  /*  target the elemenent after the label*/
+  .dark-mode .checkbox:checked + .label .ball{
+    transform: translateX(24px);
+  }
+  
+  .dark-mode .fa-moon {
+    color: #0d7fa9;
+  }
+  
+  .dark-mode .fa-sun {
+    color: white;
+  }
+
+.light , .light >*{
+    background-color: #fff;
+    color: #00537a;
+}
+
+.preview-item{
+    padding: 3%;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
 .divCode{
     padding: 1%;
     background-color: #f8f9fa;
 }
-
+.w-100{    
+    width: 100% !important;
+}
+.page-name {    
+    width: 100% !important;
+}
 .page-name .header .title{
     color: #00537a;
 }
@@ -41,11 +156,11 @@
     width: 100%;
     position: fixed;
     box-shadow: 0 5px 5px #888888;
-    z-index: 1340;
+    z-index: 99;
 }
 
-#root{
-    padding-top: 90px;
+.body-root{
+    padding-top: 100px;
 }
 
 .menu {
@@ -61,7 +176,7 @@
 
 .content{
     padding-left: 350px;    
-    
+    min-height: 100vh;
 }
 
 .scroll-element{

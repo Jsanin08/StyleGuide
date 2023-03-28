@@ -9,7 +9,7 @@ export const Menu = () => {
             <ul>
             {data?.map((item)=>
             <li key={item.id}>
-              { item.child?.length > 0 && item.url != "" ? <NavLink  className='link parent-item capitalize nav-link' to={item.url}>{item.name}</NavLink > : <a className='capitalize nav-link' href={`#${item.template}`} to={item.url}>{item.name}</a >} 
+              { item.child?.length > 0 && item.url != "" ? <NavLink  className='link parent-item capitalize nav-link' to={item.url}>{item.name}</NavLink > : <a className='capitalize nav-link' href={`#${item.template ? item.template : ''}`} to={item.url}>{item.name}</a >} 
                <CreateMenu data={item.child}/>
             </li>
             )}                

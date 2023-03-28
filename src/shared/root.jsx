@@ -10,7 +10,7 @@ export const Root = ({data}) => {
     console.log(rootUrl)
   return (
     data?.child?.map((item)=>(
-       <div className='scroll-element' id={item.template} key={item.id}> <Code  rootUrl={rootUrl} template={item} /> <br /></div>
+       <div className='scroll-element preview-item' id={item.template} key={item.id}> <Code  rootUrl={rootUrl} template={item} /> <br /></div>
   ))
   )
 }

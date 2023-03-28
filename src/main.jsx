@@ -7,7 +7,7 @@ import MyRoutes from './shared/myRoutes';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <BrowserRouter>    
+     <BrowserRouter>       
        <MyRoutes/>
    </BrowserRouter>
   </React.StrictMode>,

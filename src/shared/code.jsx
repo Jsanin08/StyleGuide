@@ -15,7 +15,7 @@ const Code = ({rootUrl,template}) => {
   
   return (
     <div>
-      <h4 className='capitalize'>{template.name}</h4>
+      <h4 className='capitalize preview-title'>{template.name}</h4>
       <div className='d-flex justify-content-center preview mt-5'>
         {parse(html)}
       </div>
