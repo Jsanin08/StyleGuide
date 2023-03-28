@@ -32,7 +32,7 @@
 				},
 				{
 					"id":"1.1.5",
-					"name": "With icon",
+					"name": "icon",
 					"template":"withIcon"
 				},
 				{
@@ -74,52 +74,52 @@
 			"child":[
 				{
 					"id":"1.2.1",
-					"name": "With left border and icon",
+					"name": "left border/icon",
 					"template":"leftBorderIcon"
 				},
 				{
 					"id":"1.2.2",
-					"name": "With dark bg",
+					"name": "dark bg",
 					"template":"darkBg"
 				},
 				{
 					"id":"1.2.3",
-					"name": "With dismissible button",
+					"name": "dismissible button",
 					"template":"dismissibleButton"
 				},
 				{
 					"id":"1.2.4",
-					"name": "With feedback and error list",
+					"name": "feedback/error list",
 					"template":"feedbackErrorList"
 				},
 				{
 					"id":"1.2.5",
-					"name": "With icon and text",
+					"name": "icon/text",
 					"template":"iconText"
 				},
 				{
 					"id":"1.2.6",
-					"name": "With icon and arrow action",
+					"name": "icon/arrow action",
 					"template":"iconArrowAction"
 				},
 				{
 					"id":"1.2.7",
-					"name": "With message and action buttons",
+					"name": "message/action buttons",
 					"template":"messageActionButtons"
 				},
 				{
 					"id":"1.2.8",
-					"name": "With outline border",
+					"name": "outline border",
 					"template":"outlineBorder"
 				},
 				{
 					"id":"1.2.9",
-					"name": "With pill-shaped borders and icon",
+					"name": "pill-shaped borders/icon",
 					"template":"pillShapedBorIcon"
 				},
 				{
 					"id":"1.2.10",
-					"name": "With solid color",
+					"name": "solid color",
 					"template":"solidColor"
 				}
 			]
@@ -132,17 +132,17 @@
 			"child":[
 				{
 					"id":"1.3.1",
-					"name": "With text",
+					"name": "text",
 					"template":"withText"
 				},
 				{
 					"id":"1.3.2",
-					"name": "With child",
+					"name": "child",
 					"template":"withChild"
 				},
 				{
 					"id":"1.3.3",
-					"name": "With image",
+					"name": "image",
 					"template":"withImage"
 				},
 				{
@@ -152,7 +152,7 @@
 				},
 				{
 					"id":"1.3.5",
-					"name": "With Group hover effect",
+					"name": "Group hover effect",
 					"template":"groupHoverE"
 				},
 				{
@@ -162,17 +162,17 @@
 				},
 				{
 					"id":"1.3.7",
-					"name": "With Status bullet",
+					"name": "Status bullet",
 					"template":"statusBullet"
 				},
 				{
 					"id":"1.3.8",
-					"name": "With Inline text",
+					"name": "Inline text",
 					"template":"inlineText"
 				},
 				{
 					"id":"1.3.9",
-					"name": "With inline text + link",
+					"name": "inline text + link",
 					"template":"inlineTextLink"
 				}
 			]
@@ -189,18 +189,18 @@
 					"template":"colors"
 				},
 				{
-					"id":"1.4.1",
-					"name": "With number",
+					"id":"1.4.2",
+					"name": "number",
 					"template":"withNumber"
 				},
 				{
-					"id":"1.4.1",
-					"name": "With bullets",
+					"id":"1.4.3",
+					"name": "bullets",
 					"template":"withBullets"
 				},
 				{
-					"id":"1.4.1",
-					"name": "With icon",
+					"id":"1.4.4",
+					"name": "icon",
 					"template":"withIcon"
 				}
 			]
@@ -213,61 +213,61 @@
 			"child":[
 				{
 					"id":"1.5.1",
-					"name": "With simple links",
+					"name": "simple links",
 					"template":"simpleLinks"
 					
 				},
 				{
 					"id":"1.5.2",
-					"name": "With dividers",
+					"name": "dividers",
 					"template":"withDividers"
 					
 				},
 				{
 					"id":"1.5.3",
-					"name": "With links + icons",
+					"name": "links + icons",
 					"template":"linksIcons"
 					
 				},
 				{
 					"id":"1.5.4",
-					"name": "With header and dividers",
+					"name": "header/dividers",
 					"template":"headersDividers"
 					
 				},
 				{
 					"id":"1.5.5",
-					"name": "With avatar + inline text",
+					"name": "avatar + inline text",
 					"template":"avatarInlineText"
 					
 				},
 				{
 					"id":"1.5.6",
-					"name": "With search box",
+					"name": "search box",
 					"template":"searchBox"
 					
 				},
 				{
 					"id":"1.5.7",
-					"name": "With grouped checkboxed + inline text and badge",
+					"name": "grouped checkboxed + inline text/badge",
 					"template":"groupedCheckInTextBad"
 					
 				},
 				{
 					"id":"1.5.8",
-					"name": "With checkbox + inline text and badge",
+					"name": "checkbox + inline text/badge",
 					"template":"checkboxInlineTextBad"
 					
 				},
 				{
 					"id":"1.5.9",
-					"name": "With empty placeholder",
+					"name": "empty placeholder",
 					"template":"emptyPlaceholder"
 					
 				},
 				{
 					"id":"1.5.10",
-					"name": "With media list",
+					"name": "media list",
 					"template":"mediaList"
 					
 				},
@@ -279,19 +279,19 @@
 				},
 				{
 					"id":"1.5.12",
-					"name": "With notifications",
+					"name": "notifications",
 					"template":"notifications"
 					
 				},
 				{
 					"id":"1.5.13",
-					"name": "With radios + inline text and badge",
+					"name": "radios + inline text/badge",
 					"template":"radiosInlineTextBad"
 					
 				},
 				{
 					"id":"1.5.14",
-					"name": "With text and badges",
+					"name": "text/badges",
 					"template":"textBadges"
 					
 				}
@@ -305,32 +305,32 @@
 			"child":[
 				{
 					"id":"1.6.1",
-					"name": "With theme color",
+					"name": "theme color",
 					"template":"themeColor"
 				},
 				{
 					"id":"1.6.2",
-					"name": "With label",
+					"name": "label",
 					"template":"withLabel"
 				},
 				{
 					"id":"1.6.3",
-					"name": "With tooltip",
+					"name": "tooltip",
 					"template":"withTooltip"
 				},
 				{
 					"id":"1.6.4",
-					"name": "With text above",
+					"name": "text above",
 					"template":"textAbove"
 				},
 				{
 					"id":"1.6.5",
-					"name": "With multiple colors",
+					"name": "multiple colors",
 					"template":"multipleColors"
 				},
 				{
 					"id":"1.6.6",
-					"name": "With striped bg",
+					"name": "striped bg",
 					"template":"stripedBg"
 				}
 			]
@@ -452,7 +452,7 @@
 			"child":[
 				{
 					"id":"3.1.1",
-					"name": "With dark bg and centered links",
+					"name": "dark bg/centered links",
 					"template":"navbar2"
 				}
 			]
@@ -465,7 +465,7 @@
 			"child":[
 				{
 					"id":"3.2.1",
-					"name": "With simple links and bottom menu",
+					"name": "simple links/bottom menu",
 					"template":"verticalNavbar1"
 				}
 			]
@@ -485,7 +485,7 @@
 			"child":[
 				{
 					"id":"4.1.1",
-					"name": "With dark bg and centered links",
+					"name": "dark bg/centered links",
 					"template":"navbar2"
 				}
 			]
@@ -498,7 +498,7 @@
 			"child":[
 				{
 					"id":"3.2.1",
-					"name": "With simple links and bottom menu",
+					"name": "simple links/bottom menu",
 					"template":"verticalNavbar1"
 				}
 			]
@@ -518,7 +518,7 @@
 			"child":[
 				{
 					"id":"5.1.1",
-					"name": "With right buttons",
+					"name": "right buttons",
 					"template":"ph1"
 				}
 			]
@@ -551,7 +551,7 @@
 			"child":[
 				{
 					"id":"6.1.1",
-					"name": "With text and date info",
+					"name": "text/date info",
 					"template":"ac1"
 				}
 			]
@@ -564,7 +564,7 @@
 			"child":[
 				{
 					"id":"6.2.1",
-					"name": "With cover and profile picture with stats and buttons",
+					"name": "Cover/picture/stats",
 					"template":"pc1"
 				}
 			]
@@ -584,7 +584,7 @@
 			"child":[
 				{
 					"id":"7.1.1",
-					"name": "With inline title and text + tag",
+					"name": "inline title/text + tag",
 					"template":"ll1"
 				}
 			]
@@ -597,7 +597,7 @@
 			"child":[
 				{
 					"id":"7.2.1",
-					"name": "With avatar and quick info",
+					"name": "avatar/quick info",
 					"template":"lg1"
 				}
 			]
@@ -617,7 +617,7 @@
 			"child":[
 				{
 					"id":"8.1.1",
-					"name": "With avatars and badges",
+					"name": "avatars/badges",
 					"template":"srt1"
 				}
 			]
@@ -630,7 +630,7 @@
 			"child":[
 				{
 					"id":"8.2.1",
-					"name": "With avatars and badges",
+					"name": "avatars/badges",
 					"template":"at1"
 				}
 			]
@@ -650,7 +650,7 @@
 			"child":[
 				{
 					"id":"9.1.1",
-					"name": "With label and muted input",
+					"name": "label/muted input",
 					"template":"fg1"
 				}
 			]
@@ -663,7 +663,7 @@
 			"child":[
 				{
 					"id":"9.2.1",
-					"name": "With avatar and upload button + remove",
+					"name": "avatar/upload/remove",
 					"template":"fi1"
 				}
 			]

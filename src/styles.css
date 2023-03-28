@@ -1,13 +1,82 @@
 .divCode{
-    padding: 3%;
+    padding: 1%;
     background-color: #f8f9fa;
-}
-
-.page-name{
-    width: 25%;
-    justify-content: space-between;
 }
 
 .page-name .header .title{
     color: #00537a;
+}
+
+.nav-header{
+    margin-left: 48px;
+}
+
+.parent-item.active{
+    font-weight: 600;
+}
+
+.parent-item.active + ul{
+    display: block;
+    animation: fade_in_show 0.3s
+}
+
+.parent-item + ul{
+    display: none;
+    animation: fade_out_show 0.5s
+}
+
+@keyframes fade_in_show {
+    0% {
+         opacity: 0;
+         transform: scale(0)
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1)
+    }
+}
+
+.fixed-nav{
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 5px 5px #888888;
+    z-index: 1340;
+}
+
+#root{
+    padding-top: 90px;
+}
+
+.menu {
+    position: fixed;
+    max-height: calc(100vh - 18%);
+    overflow-y: scroll;
+    padding-right: 16px;
+}
+
+.nav-link:hover{
+    background-color: #f5f9fc;
+}
+
+.content{
+    padding-left: 350px;    
+    
+}
+
+.scroll-element{
+    scroll-margin-top: 100px;
+}
+
+.preview{
+    width: 100%;
+    gap: 10px;
+}
+
+.progress-wrapper, .progress, .preview .navbar{
+    width: 100%;
+}
+
+.capitalize{
+    text-transform: capitalize; 
 }

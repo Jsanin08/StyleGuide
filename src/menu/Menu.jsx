@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Route, Routes } from "react-router-dom";
+import { Link, NavLink, Route, Routes } from "react-router-dom";
 
 import menuJson from './menu.config.json'
 
@@ -9,7 +9,7 @@ export const Menu = () => {
             <ul>
             {data?.map((item)=>
             <li key={item.id}>
-              <Link className='link' to={item.url}>{item.name}</Link>
+              { item.child?.length > 0 && item.url != "" ? <NavLink  className='link parent-item capitalize nav-link' to={item.url}>{item.name}</NavLink > : <a className='capitalize nav-link' href={`#${item.template}`} to={item.url}>{item.name}</a >} 
                <CreateMenu data={item.child}/>
             </li>
             )}                

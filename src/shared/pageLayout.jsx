@@ -4,11 +4,11 @@ import { Menu } from '../menu/Menu'
 
 const PageLayout = () => {
   return (
-    <div className='row p-5'>
-         <div className='menu col-2'>
+    <div className='p-5'>
+         <div className='menu'>
            <Menu/> 
          </div>
-         <div className='col-10'>
+         <div className='content'>
            <Outlet />
          </div>
     </div>

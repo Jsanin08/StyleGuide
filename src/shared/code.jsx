@@ -15,8 +15,8 @@ const Code = ({rootUrl,template}) => {
   
   return (
     <div>
-      <h4>{template.name}</h4>
-      <div className='d-flex justify-content-center'>
+      <h4 className='capitalize'>{template.name}</h4>
+      <div className='d-flex justify-content-center preview mt-5'>
         {parse(html)}
       </div>
         <hr />
@@ -24,7 +24,7 @@ const Code = ({rootUrl,template}) => {
         <button
             onClick={() => copy(html)}
             type="button" 
-            className="btn btn-secondary btn-clipboard" 
+            className="btn btn-secondary btn-clipboard mb-3" 
             title="" 
             data-bs-original-title="Copy to clipboard">Copy</button>
         </div>
