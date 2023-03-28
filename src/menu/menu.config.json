@@ -172,7 +172,7 @@
 				},
 				{
 					"id":"1.3.9",
-					"name": "inline text + link",
+					"name": "inline text/link",
 					"template":"inlineTextLink"
 				}
 			]
@@ -225,7 +225,7 @@
 				},
 				{
 					"id":"1.5.3",
-					"name": "links + icons",
+					"name": "links/icons",
 					"template":"linksIcons"
 					
 				},
@@ -237,7 +237,7 @@
 				},
 				{
 					"id":"1.5.5",
-					"name": "avatar + inline text",
+					"name": "avatar/inline text",
 					"template":"avatarInlineText"
 					
 				},
@@ -249,13 +249,13 @@
 				},
 				{
 					"id":"1.5.7",
-					"name": "grouped checkboxed + inline text/badge",
+					"name": "grouped checkboxed/inline text/badge",
 					"template":"groupedCheckInTextBad"
 					
 				},
 				{
 					"id":"1.5.8",
-					"name": "checkbox + inline text/badge",
+					"name": "checkbox/inline text/badge",
 					"template":"checkboxInlineTextBad"
 					
 				},
@@ -285,7 +285,7 @@
 				},
 				{
 					"id":"1.5.13",
-					"name": "radios + inline text/badge",
+					"name": "radios/inline text/badge",
 					"template":"radiosInlineTextBad"
 					
 				},
@@ -338,8 +338,8 @@
 		},
 		{
 			"id":"1.7",
-			"name": "Media Object",
-			"url":"MediaObject",
+			"name": "Media Objects",
+			"url":"MediaObjects",
 			"child":[
 				{
 					"id":"1.7.1",
@@ -452,8 +452,88 @@
 			"child":[
 				{
 					"id":"3.1.1",
+					"name": "light bg/centered links",
+					"template":"lightBgCenteredLin"
+				},
+				{
+					"id":"3.1.2",
 					"name": "dark bg/centered links",
-					"template":"navbar2"
+					"template":"darkBgCenteredLin"
+				},
+				{
+					"id":"3.1.3",
+					"name": "light bg, simple links/user menu",
+					"template":"lightBgSimpleLinUser"
+				},
+				{
+					"id":"3.1.4",
+					"name": "dark bg, simple links/user menu",
+					"template":"darkBgSimpleLinUser"
+				},
+				{
+					"id":"3.1.5",
+					"name": "light bg/search input",
+					"template":"lightBgSearchInput"
+				},
+				{
+					"id":"3.1.6",
+					"name": "dark bg/search input",
+					"template":"darkBgSearchInput"
+				},
+				{
+					"id":"3.1.7",
+					"name": "light bg/pill-shaped search input",
+					"template":"lightBgPillSearch"
+				},
+				{
+					"id":"3.1.8",
+					"name": "dark bg/pill-shaped search input",
+					"template":"darkBgPillSearch"
+				},
+				{
+					"id":"3.1.9",
+					"name": "light bg/flushed search input",
+					"template":"lightBgFlushedSearch"
+				},
+				{
+					"id":"3.1.10",
+					"name": "dark bg/flushed search input",
+					"template":"darkBgFlushedSearch"
+				},
+				{
+					"id":"3.1.11",
+					"name": "light bg/centered search input",
+					"template":"lightBgCenteredSearch"
+				},
+				{
+					"id":"3.1.12",
+					"name": "dark bg/centered search input",
+					"template":"darkBgCenteredSearch"
+				},
+				{
+					"id":"3.1.13",
+					"name": "search/right user menu",
+					"template":"searchRightUserMenu"
+				},
+				{
+					"id":"3.1.14",
+					"name": "filters, search,/right user menu",
+					"template":"filtersSearchRightUser"
+				},
+				{
+					"id":"3.1.15",
+					"name": "filters, avatars,/right button",
+					"template":"filtersAvatarsRightButton"
+				},
+				{
+					"id":"3.1.16",
+					"name": "flushed search/user menu",
+					"template":"flushedSearchUserMenu"
+				},
+				{
+					"id":"3.1.17",
+					"name": "shortcut buttons/icons",
+					"template":"shortCutButtonsIcons"
 				}
 			]
 		
@@ -466,58 +546,240 @@
 				{
 					"id":"3.2.1",
 					"name": "simple links/bottom menu",
-					"template":"verticalNavbar1"
+					"template":"simpleLinksBottomMenu"
+				},
+				{
+					"id":"3.2.2",
+					"name": "submenu/bottom nav",
+					"template":"submenuBottomNav"
+				},
+				{
+					"id":"3.2.3",
+					"name": "links w/ badges/bottom nav",
+					"template":"linksBadgesBottomNav"
+				},
+				{
+					"id":"3.2.4",
+					"name": "tags menu",
+					"template":"tagsMenu"
+				},
+				{
+					"id":"3.2.5",
+					"name": "contacts/bottom menu",
+					"template":"contactsBottomMenu"
+				},
+				{
+					"id":"3.2.6",
+					"name": "button, contacts/bottom dropdown",
+					"template":"buttonContactsBottom"
+				},
+				{
+					"id":"3.2.7",
+					"name": "call to action/bottom nav",
+					"template":"callActionBottomNav"
+				},
+				{
+					"id":"3.2.8",
+					"name": "centered icon menu",
+					"template":"centeredIconMenu"
+				},
+				{
+					"id":"3.2.9",
+					"name": "top/bottom icon menu",
+					"template":"topBottomIconMenu"
+				},
+				{
+					"id":"3.2.10",
+					"name": "logo/centered avatars",
+					"template":"logoCenteredAvatars"
+				},
+				{
+					"id":"3.2.11",
+					"name": "logo, icon nav/avatars",
+					"template":"logoIconNavAvatars"
+				},
+				{
+					"id":"3.2.12",
+					"name": "multiple logos",
+					"template":"multipleLogos"
+				},
+				{
+					"id":"3.2.13",
+					"name": "Additionally",
+					"template":"Additionally1"
+				},
+				{
+					"id":"3.2.14",
+					"name": "Additionally",
+					"template":"Additionally2"
 				}
 			]
 			
-			}]
+			},
+			{
+			"id":"3.3",
+			"name": "Pagination",
+			"url":"Pagination",
+			"child":[
+				{
+					"id":"4.3.1",
+					"name": "left/right arrows",
+					"template":"leftRightArrows"
+				},
+				{
+					"id":"4.3.2",
+					"name": "link buttons",
+					"template":"linkButtons"
+				},
+				{
+					"id":"4.3.3",
+					"name": "circle buttons",
+					"template":"circleButtons"
+				},
+				{
+					"id":"4.3.4",
+					"name": "helper text",
+					"template":"helperText"
+				},
+				{
+					"id":"4.3.5",
+					"name": "arrows/offset",
+					"template":"arrowsOffset"
+				},
+				{
+					"id":"4.3.6",
+					"name": "space between",
+					"template":"spaceBetween"
+				},
+				{
+					"id":"4.3.7",
+					"name": "tabbed links",
+					"template":"tabbedLinks"
+				}
+				]
+				
+				},
+			{
+			"id":"3.4",
+			"name": "Menu",
+			"url":"Menu",
+			"child":[
+				{
+					"id":"4.4.1",
+					"name": "navbar/dropdown menu",
+					"template":"navbarDropdownMenu"
+				},
+				{
+					"id":"4.4.2",
+					"name": "navbar/extended menu",
+					"template":"navbarExtendedMenu"
+				},
+				{
+					"id":"4.4.3",
+					"name": "navbar/dropdown menu",
+					"template":"navbarDropdownMenu2"
+				},
+				{
+					"id":"4.4.4",
+					"name": "navbar/dropdown menu",
+					"template":"navbarDropdownMenu3"
+				},
+				{
+					"id":"4.4.5",
+					"name": "navbar/mega menu",
+					"template":"navbarMegaMenu"
+				},
+				{
+					"id":"4.4.6",
+					"name": "navbar/extended menu",
+					"template":"navbarExtendedMenu2"
+				},
+				{
+					"id":"4.4.7",
+					"name": "navbar/mega menu",
+					"template":"navbarMegaMenu2"
+				},
+				{
+					"id":"4.4.1",
+					"name": "navbar/mega menu",
+					"template":"navbarMegaMenu3"
+				},
+				{
+					"id":"4.4.1",
+					"name": "navbar/dropdown menu",
+					"template":"navbarDropdownMenu4"
+				}
+			]
+			
+			},
+			{
+			"id":"3.5",
+			"name": "Navs",
+			"url":"Navs",
+			"child":[
+				{
+					"id":"4.5.1",
+					"name": "",
+					"template":"sh1"
+				},
+				{
+					"id":"4.5.1",
+					"name": "",
+					"template":"sh1"
+				},
+				{
+					"id":"4.5.1",
+					"name": "",
+					"template":"sh1"
+				},
+				{
+					"id":"4.5.1",
+					"name": "",
+					"template":"sh1"
+				},
+				{
+					"id":"4.5.1",
+					"name": "",
+					"template":"sh1"
+				},
+				{
+					"id":"4.5.1",
+					"name": "",
+					"template":"sh1"
+				},
+				{
+					"id":"4.5.1",
+					"name": "",
+					"template":"sh1"
+				},
+				{
+					"id":"4.5.1",
+					"name": "",
+					"template":"sh1"
+				},
+				{
+					"id":"4.5.1",
+					"name": "",
+					"template":"sh1"
+				}
+				]
+				
+				}]
 	},
+
 
 	{
         "id":"4",
-		"name": "Navigation",
-		"computedName":"Navigation",
-		"url":"",
-		"child": [{
-			"id":"4.1",
-			"name": "Navbar",
-			"url":"Navbar",
-			"child":[
-				{
-					"id":"4.1.1",
-					"name": "dark bg/centered links",
-					"template":"navbar2"
-				}
-			]
-		
-			},
-			{
-			"id":"4.2",
-			"name": "Vertical Navbar",
-			"url":"VerticalNavbar",
-			"child":[
-				{
-					"id":"3.2.1",
-					"name": "simple links/bottom menu",
-					"template":"verticalNavbar1"
-				}
-			]
-			
-			}]
-	},
-
-	{
-        "id":"5",
 		"name": "Headings",
 		"computedName":"Headings",
 		"url":"",
 		"child": [{
-			"id":"5.1",
+			"id":"4.1",
 			"name": "Page Headings",
 			"url":"PageHeadings",
 			"child":[
 				{
-					"id":"5.1.1",
+					"id":"4.1.1",
 					"name": "right buttons",
 					"template":"ph1"
 				}
@@ -525,12 +787,12 @@
 		
 			},
 			{
-			"id":"5.2",
+			"id":"4.2",
 			"name": "Section Heading",
 			"url":"SectionHeadings",
 			"child":[
 				{
-					"id":"5.2.1",
+					"id":"4.2.1",
 					"name": "",
 					"template":"sh1"
 				}
@@ -540,17 +802,17 @@
 	},
 
 	{
-        "id":"6",
+        "id":"5",
 		"name": "Cards",
 		"computedName":"Cards",
 		"url":"",
 		"child": [{
-			"id":"6.1",
+			"id":"5.1",
 			"name": "Avatar Cards",
 			"url":"AvatarCards",
 			"child":[
 				{
-					"id":"6.1.1",
+					"id":"5.1.1",
 					"name": "text/date info",
 					"template":"ac1"
 				}
@@ -558,12 +820,12 @@
 		
 			},
 			{
-			"id":"6.2",
+			"id":"5.2",
 			"name": "Profile Cards",
 			"url":"ProfileCards",
 			"child":[
 				{
-					"id":"6.2.1",
+					"id":"5.2.1",
 					"name": "Cover/picture/stats",
 					"template":"pc1"
 				}
@@ -573,30 +835,30 @@
 	},
 
 	{
-        "id":"7",
+        "id":"6",
 		"name": "List",
 		"computedName":"List",
 		"url":"",
 		"child": [{
-			"id":"7.1",
+			"id":"6.1",
 			"name": "Large Lists",
 			"url":"LargeLists",
 			"child":[
 				{
-					"id":"7.1.1",
-					"name": "inline title/text + tag",
+					"id":"6.1.1",
+					"name": "inline title/text/tag",
 					"template":"ll1"
 				}
 			]
 		
 			},
 			{
-			"id":"7.2",
+			"id":"6.2",
 			"name": "List Groups",
 			"url":"ListGroups",
 			"child":[
 				{
-					"id":"7.2.1",
+					"id":"6.2.1",
 					"name": "avatar/quick info",
 					"template":"lg1"
 				}
@@ -606,17 +868,17 @@
 	},
 
 	{
-        "id":"8",
+        "id":"7",
 		"name": "Tables",
 		"computedName":"Tables",
 		"url":"",
 		"child": [{
-			"id":"8.1",
+			"id":"7.1",
 			"name": "Spaced Rows Tables",
 			"url":"SpacedRowsTables",
 			"child":[
 				{
-					"id":"8.1.1",
+					"id":"7.1.1",
 					"name": "avatars/badges",
 					"template":"srt1"
 				}
@@ -624,32 +886,45 @@
 		
 			},
 			{
-			"id":"8.2",
+			"id":"7.2",
 			"name": "Advanced Tables",
 			"url":"AdvancedTables",
 			"child":[
 				{
-					"id":"8.2.1",
+					"id":"7.2.1",
 					"name": "avatars/badges",
 					"template":"at1"
 				}
 			]
 			
-			}]
+			},
+			{
+				"id":"7.3",
+				"name": "GAP People",
+				"url":"GAPTable",
+				"child":[
+					{
+						"id":"7.3.1",
+						"name": "GAP Table",
+						"template":"gapTable"
+					}
+				]
+				
+				}]
 	},
 
 	{
-        "id":"9",
+        "id":"8",
 		"name": "Forms",
 		"computedName":"Forms",
 		"url":"",
 		"child": [{
-			"id":"9.1",
+			"id":"8.1",
 			"name": "Form Groups",
 			"url":"FormGroups",
 			"child":[
 				{
-					"id":"9.1.1",
+					"id":"8.1.1",
 					"name": "label/muted input",
 					"template":"fg1"
 				}
@@ -657,17 +932,36 @@
 		
 			},
 			{
-			"id":"9.2",
+			"id":"8.2",
 			"name": "File Inputs",
 			"url":"FileInputs",
 			"child":[
 				{
-					"id":"9.2.1",
+					"id":"8.2.1",
 					"name": "avatar/upload/remove",
 					"template":"fi1"
 				}
 			]
 			
+			}]
+	},
+	{
+        "id":"9",
+		"name": "Modals",
+		"computedName":"Modals",
+		"url":"",
+		"child": [{
+			"id":"8.1",
+			"name": "Modals",
+			"url":"Modals",
+			"child":[
+				{
+					"id":"8.1.1",
+					"name": "Ask a question",
+					"template":"question"
+				}
+			]
+		
 			}]
 	}]
 	

@@ -177,6 +177,12 @@
 .content{
     padding-left: 350px;    
     min-height: 100vh;
+
+}
+
+.content .modal{
+    display: block;
+    position: inherit;
 }
 
 .scroll-element{
