@@ -18,6 +18,10 @@
     color: rgb(119, 211, 255);
 }
 
+.dark .fixed-nav .navbar .navbar-brand{
+    filter: brightness(4.5);
+}
+
 .dark .divCode, .dark .divCode .pre{
     background-color: rgb(27, 30, 31);
     color: rgb(119, 211, 255);
@@ -90,7 +94,7 @@
   }
   
   .dark-mode .fa-moon {
-    color: #0d7fa9;
+    color: #00ffff;
   }
   
   .dark-mode .fa-sun {
