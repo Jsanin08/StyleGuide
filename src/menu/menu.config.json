@@ -704,21 +704,21 @@
 			"child":[
 				{
 					"id":"4.1.1",
-					"name": "right buttons",
-					"template":"ph1"
+					"name": "profile image/links/right buttons",
+					"template":"profileImageLinks"
 				}
 			]
 		
 			},
 			{
 			"id":"4.2",
-			"name": "Section Heading",
-			"url":"SectionHeadings",
+			"name": "Profile Headings",
+			"url":"",
 			"child":[
 				{
 					"id":"4.2.1",
-					"name": "",
-					"template":"sh1"
+					"name": "Cover/profile picture/pills nav",
+					"template":"coverProfilePills"
 				}
 			]
 			
@@ -737,8 +737,8 @@
 			"child":[
 				{
 					"id":"5.1.1",
-					"name": "text/date info",
-					"template":"ac1"
+					"name": "avatar group/buttons",
+					"template":"avatarGroup"
 				}
 			]
 		
@@ -751,10 +751,80 @@
 				{
 					"id":"5.2.1",
 					"name": "Cover/picture/stats",
-					"template":"pc1"
+					"template":"coverPictureStats"
 				}
 			]
 			
+			},
+			{
+			"id":"5.3",
+			"name": "List Cards",
+			"url":"ListCards",
+			"child":[
+				{
+					"id":"5.3.1",
+					"name": "avatar/quick info",
+					"template":"quickInfo"
+				}
+			]
+				
+			},
+			{
+			"id":"5.4",
+			"name": "Stats Cards",
+			"url":"statsCards",
+			"child":[
+				{
+					"id":"5.4.1",
+					"name": "dark bg/progress bar/icon",
+					"template":"darkBgProgressBarIcon"
+				},
+				{
+					"id":"5.4.2",
+					"name": "soft bg/progress bar/icon",
+					"template":"softBgProgressBarIcon"
+				}
+			]
+					
+			},
+			{
+			"id":"5.5",
+			"name": "Icon Cards",
+			"url":"IconCards",
+			"child":[
+				{
+					"id":"5.5.1",
+					"name": "avatar group/badge/actions",
+					"template":"avatarGroupBadge"
+				}
+			]
+				
+			},
+			{
+			"id":"5.6",
+			"name": "Pricing Card",
+			"url":"PricingCard",
+			"child":[
+				{
+					"id":"5.6.1",
+					"name": "Pricing Card",
+					"template":"pricingCard1"
+				}
+			]
+					
+			},
+			{
+			"id":"5.7",
+			"name": "Progress Cards ",
+			"url":"ProgressCards",
+			"child":[
+				{
+					"id":"5.7.1",
+					"name": "label/quick info",
+					"template":"labelQuickInfo"
+				}
+			]
+						
 			}]
 	},
 
@@ -819,20 +889,7 @@
 				}
 			]
 			
-			},
-			{
-				"id":"7.3",
-				"name": "GAP People",
-				"url":"GAPTable",
-				"child":[
-					{
-						"id":"7.3.1",
-						"name": "GAP Table",
-						"template":"gapTable"
-					}
-				]
-				
-				}]
+			}]
 	},
 	{
         "id":"8",

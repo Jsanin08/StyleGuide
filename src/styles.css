@@ -160,7 +160,7 @@
     width: 100%;
     position: fixed;
     box-shadow: 0 5px 5px #888888;
-    z-index: 99;
+    z-index: 100;
 }
 
 .body-root{
@@ -187,6 +187,7 @@
 .content .modal{
     display: block;
     position: inherit;
+    z-index: 97;
 }
 
 .scroll-element{
@@ -204,4 +205,8 @@
 
 .capitalize{
     text-transform: capitalize; 
+}
+
+.content .navbar{
+    z-index: 97;
 }
