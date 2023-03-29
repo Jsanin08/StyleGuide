@@ -160,7 +160,7 @@
     width: 100%;
     position: fixed;
     box-shadow: 0 5px 5px #888888;
-    z-index: 99;
+    z-index: 1070;
 }
 
 .body-root{
