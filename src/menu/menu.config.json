@@ -329,72 +329,6 @@
 					"template":"stripedBg"
 				}]
 		
-		},
-		{
-			"id":"1.7",
-			"name": "Media Objects",
-			"url":"MediaObjects",
-			"child":[
-				{
-					"id":"1.7.1",
-					"name": "",
-					"template":"md1"
-				},
-				{
-					"id":"1.7.2",
-					"name": "",
-					"template":"md2"
-				},
-				{
-					"id":"1.7.3",
-					"name": "",
-					"template":"md3"
-				},
-				{
-					"id":"1.7.4",
-					"name": "",
-					"template":"md4"
-				},
-				{
-					"id":"1.7.5",
-					"name": "",
-					"template":"md5"
-				},
-				{
-					"id":"1.7.6",
-					"name": "",
-					"template":"md6"
-				},
-				{
-					"id":"1.7.7",
-					"name": "",
-					"template":"md7"
-				},
-				{
-					"id":"1.7.8",
-					"name": "",
-					"template":"md8"
-				},
-				{
-					"id":"1.7.9",
-					"name": "",
-					"template":"md9"
-				},
-				{
-					"id":"1.7.10",
-					"name": "",
-					"template":"md10"
-				},
-				{
-					"id":"1.7.11",
-					"name": "",
-					"template":"md11"
-				},
-				{
-					"id":"1.7.12",
-					"name": "",
-					"template":"md12"
-				}]
 		}]
 	},
 
@@ -444,81 +378,51 @@
 				},
 				{
 					"id":"3.1.2",
-					"name": "dark bg/centered links",
-					"template":"darkBgCenteredLin"
-				},
-				{
-					"id":"3.1.3",
 					"name": "light bg, simple links/user menu",
 					"template":"lightBgSimpleLinUser"
 				},
 				{
-					"id":"3.1.4",
-					"name": "dark bg, simple links/user menu",
-					"template":"darkBgSimpleLinUser"
-				},
-				{
-					"id":"3.1.5",
+					"id":"3.1.3",
 					"name": "light bg/search input",
 					"template":"lightBgSearchInput"
 				},
 				{
-					"id":"3.1.6",
-					"name": "dark bg/search input",
-					"template":"darkBgSearchInput"
-				},
-				{
-					"id":"3.1.7",
+					"id":"3.1.4",
 					"name": "light bg/pill-shaped search input",
 					"template":"lightBgPillSearch"
 				},
 				{
-					"id":"3.1.8",
-					"name": "dark bg/pill-shaped search input",
-					"template":"darkBgPillSearch"
-				},
-				{
-					"id":"3.1.9",
+					"id":"3.1.5",
 					"name": "light bg/flushed search input",
 					"template":"lightBgFlushedSearch"
 				},
 				{
-					"id":"3.1.10",
-					"name": "dark bg/flushed search input",
-					"template":"darkBgFlushedSearch"
-				},
-				{
-					"id":"3.1.11",
+					"id":"3.1.6",
 					"name": "light bg/centered search input",
 					"template":"lightBgCenteredSearch"
 				},
 				{
-					"id":"3.1.12",
-					"name": "dark bg/centered search input",
-					"template":"darkBgCenteredSearch"
-				},
-				{
-					"id":"3.1.13",
+					"id":"3.1.7",
 					"name": "search/right user menu",
 					"template":"searchRightUserMenu"
 				},
 				{
-					"id":"3.1.14",
+					"id":"3.1.8",
 					"name": "filters, search,/right user menu",
 					"template":"filtersSearchRightUser"
 				},
 				{
-					"id":"3.1.15",
+					"id":"3.1.9",
 					"name": "filters, avatars,/right button",
 					"template":"filtersAvatarsRightButton"
 				},
 				{
-					"id":"3.1.16",
+					"id":"3.1.10",
 					"name": "flushed search/user menu",
 					"template":"flushedSearchUserMenu"
 				},
 				{
-					"id":"3.1.17",
+					"id":"3.1.11",
 					"name": "shortcut buttons/icons",
 					"template":"shortCutButtonsIcons"
 				}]
