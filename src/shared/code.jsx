@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react'
 import useCopyToClipboard from './hooks/copy'
 
 import parse from 'html-react-parser'
+import FormattedCode from './formattedCode';
 
 const Code = ({rootUrl,template}) => {
   const [value, copy] = useCopyToClipboard();
   const [html, setHtml] = useState("");
-  console.log(template)
+  console.log(template);
   useEffect(() => {
     import(`../components/${rootUrl.root}/${rootUrl.url}/${template.template}.html?raw`).then((content)=>{
       setHtml(content.default);
@@ -28,10 +29,8 @@ const Code = ({rootUrl,template}) => {
             title="" 
             data-bs-original-title="Copy to clipboard">Copy</button>
         </div>
-      <pre className='divCode'>
-        {html}
-      </pre>
-    </div>
+        <FormattedCode code={html} language="html" />
+      </div>
   )
 }
 
