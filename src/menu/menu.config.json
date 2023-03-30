@@ -605,37 +605,37 @@
 			"url":"Pagination",
 			"child":[
 				{
-					"id":"4.3.1",
+					"id":"3.3.1",
 					"name": "left/right arrows",
 					"template":"leftRightArrows"
 				},
 				{
-					"id":"4.3.2",
+					"id":"3.3.2",
 					"name": "link buttons",
 					"template":"linkButtons"
 				},
 				{
-					"id":"4.3.3",
+					"id":"3.3.3",
 					"name": "circle buttons",
 					"template":"circleButtons"
 				},
 				{
-					"id":"4.3.4",
+					"id":"3.3.4",
 					"name": "helper text",
 					"template":"helperText"
 				},
 				{
-					"id":"4.3.5",
+					"id":"3.3.5",
 					"name": "arrows/offset",
 					"template":"arrowsOffset"
 				},
 				{
-					"id":"4.3.6",
+					"id":"3.3.6",
 					"name": "space between",
 					"template":"spaceBetween"
 				},
 				{
-					"id":"4.3.7",
+					"id":"3.3.7",
 					"name": "tabbed links",
 					"template":"tabbedLinks"
 				}]
@@ -646,47 +646,47 @@
 			"url":"Menu",
 			"child":[
 				{
-					"id":"4.4.1",
+					"id":"3.4.1",
 					"name": "navbar/dropdown menu",
 					"template":"navbarDropdownMenu"
 				},
 				{
-					"id":"4.4.2",
+					"id":"3.4.2",
 					"name": "navbar/extended menu",
 					"template":"navbarExtendedMenu"
 				},
 				{
-					"id":"4.4.3",
+					"id":"3.4.3",
 					"name": "navbar/dropdown menu",
 					"template":"navbarDropdownMenu2"
 				},
 				{
-					"id":"4.4.4",
+					"id":"3.4.4",
 					"name": "navbar/dropdown menu",
 					"template":"navbarDropdownMenu3"
 				},
 				{
-					"id":"4.4.5",
+					"id":"3.4.5",
 					"name": "navbar/mega menu",
 					"template":"navbarMegaMenu"
 				},
 				{
-					"id":"4.4.6",
+					"id":"3.4.6",
 					"name": "navbar/extended menu",
 					"template":"navbarExtendedMenu2"
 				},
 				{
-					"id":"4.4.7",
+					"id":"3.4.7",
 					"name": "navbar/mega menu",
 					"template":"navbarMegaMenu2"
 				},
 				{
-					"id":"4.4.1",
+					"id":"3.4.8",
 					"name": "navbar/mega menu",
 					"template":"navbarMegaMenu3"
 				},
 				{
-					"id":"4.4.1",
+					"id":"3.4.9",
 					"name": "navbar/dropdown menu",
 					"template":"navbarDropdownMenu4"
 				}]
@@ -704,6 +704,11 @@
 			"child":[
 				{
 					"id":"4.1.1",
+					"name": "Right buttons/tabs",
+					"template":"rightButtonsTabs"
+				},
+				{
+					"id":"4.1.2",
 					"name": "profile image/links/right buttons",
 					"template":"profileImageLinks"
 				}
@@ -713,7 +718,7 @@
 			{
 			"id":"4.2",
 			"name": "Profile Headings",
-			"url":"",
+			"url":"ProfileHeadings",
 			"child":[
 				{
 					"id":"4.2.1",
@@ -871,21 +876,21 @@
 			"child":[
 				{
 					"id":"7.1.1",
-					"name": "avatars/badges",
-					"template":"srt1"
+					"name": "Spaced Rows Tables",
+					"template":"spacedRows"
 				}
 			]
 		
 			},
 			{
 			"id":"7.2",
-			"name": "Advanced Tables",
-			"url":"AdvancedTables",
+			"name": "GAPTable",
+			"url":"GAPTable",
 			"child":[
 				{
 					"id":"7.2.1",
-					"name": "avatars/badges",
-					"template":"at1"
+					"name": "GAP Table",
+					"template":"gapTable"
 				}
 			]
 			
@@ -921,7 +926,33 @@
 				}
 			]
 			
-			}]
+			},
+			{
+			"id":"8.3",
+			"name": "Login/Register Forms",
+			"url":"LoginRegisterForms",
+			"child":[
+				{
+					"id":"8.3.1",
+					"name": "default inputs/button",
+					"template":"defaultInputsButton"
+				}
+			]
+				
+			},
+			{
+				"id":"8.4",
+				"name": "Form Layouts",
+				"url":"FormLayouts",
+				"child":[
+					{
+						"id":"8.4.1",
+						"name": "sidebar menu",
+						"template":"sidebarMenu"
+					}
+				]
+					
+				}]
 	},
 	{
         "id":"9",
@@ -967,6 +998,23 @@
 					"id":"8.1.7",
 					"name": "Additionally",
 					"template":"m1"
+				}]
+			}]
+	},
+	{
+        "id":"10",
+		"name": "Filter",
+		"computedName":"Filter",
+		"url":"",
+		"child": [{
+			"id":"10.1",
+			"name": "Filter",
+			"url":"Filter",
+			"child":[
+				{
+					"id":"10.1.1",
+					"name": "Filter",
+					"template":"filter"
 				}]
 			}]
 	}]
