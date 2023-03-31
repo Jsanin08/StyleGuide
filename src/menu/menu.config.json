@@ -681,7 +681,7 @@
 			{
 			"id":"5.4",
 			"name": "Stats Cards",
-			"url":"statsCards",
+			"url":"StatsCards",
 			"child":[
 				{
 					"id":"5.4.1",
