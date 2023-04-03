@@ -245,7 +245,7 @@
 				},
 				{
 					"id":"1.5.7",
-					"name": "grouped checkboxed/inline text/badge",
+					"name": "grouped/inline text/badge",
 					"template":"groupedCheckInTextBad"
 					
 				},
@@ -853,6 +853,11 @@
 						"id":"8.4.1",
 						"name": "sidebar menu",
 						"template":"sidebarMenu"
+					},
+					{
+						"id":"8.4.2",
+						"name": "Individual grid forms in cards",
+						"template":"individualGridForms"
 					}
 				]
 					
