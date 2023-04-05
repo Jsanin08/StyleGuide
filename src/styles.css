@@ -9,6 +9,10 @@
     color: #3391ff;
 }
 
+.dark .language-html{
+    background-color: #1a2626 !important;
+}
+
 .dark .fixed-nav > *{
     background-color: rgb(24, 26, 27) !important;
     color: rgb(119, 211, 255);
