@@ -344,6 +344,21 @@
 				"child":[
 					{
 						"id":"2.1.1",
+						"name": "Primary color",
+						"template":"primary"
+					},
+					{
+						"id":"2.1.2",
+						"name": "Danger color",
+						"template":"danger"
+					},
+					{
+						"id":"2.1.3",
+						"name": "Success color",
+						"template":"success"
+					},
+					{
+						"id":"2.1.4",
 						"name": "Available Colors",
 						"template":"availableColors"
 					}]
